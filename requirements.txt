@@ -14,6 +14,7 @@ jsonpatch==1.33 ; python_version >= "3.10" and python_version < "4.0"
 jsonpointer==3.0.0 ; python_version >= "3.10" and python_version < "4.0"
 jsonschema-specifications==2024.10.1 ; python_version >= "3.10" and python_version < "4.0"
 jsonschema==4.23.0 ; python_version >= "3.10" and python_version < "4.0"
+langchain
 langchain-core==0.2.43 ; python_version >= "3.10" and python_version < "4.0"
 langchain-openai; python_version >= "3.10" and python_version < "4.0"
 langserve[server]==0.2.3 ; python_version >= "3.10" and python_version < "4.0"
