@@ -13,7 +13,7 @@ app = FastAPI()
 
 # define model
 
-openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = os.environ.get("OPENAI_API_KEY")
 
 model = ChatOpenAI(
     openai_api_key=openai_api_key, #config("OPENAI_API_KEY"),
